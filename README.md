@@ -2,7 +2,9 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iqwn5OKrrBD1vxx7EoGJRvEquBfxwQpX?usp=sharing)]
 
 ## Description
-Uploading an image, and our application will generate a description for this image. The 
+A webapp which can generate brief captions from images.
+We have used a merge model similar to "Show and tell architecture" to generate brief captions.
+We trained model on flickr8k dataset with the help of google colab.
 
 ## Visuals
 Below is the demo output of our model
