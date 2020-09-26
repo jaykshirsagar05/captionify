@@ -45,6 +45,7 @@ Anyone is welcomed to contribute to this project.
 
 * Davidefiocco. (n.d.). Davidefiocco/streamlit-fastapi-model-serving. Retrieved September 26, 2020, from https://github.com/davidefiocco/streamlit-fastapi-model-serving
 
+* Xu, K., Ba, J. L., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., . . . Bengio, Y. (2016, April 19). Show, Attend and Tell: Neural Image Caption Generation with Visual Attention [Scholarly project]. In ArXiv. Retrieved September 26, 2020, from https://arxiv.org/pdf/1502.03044.pdf
 
 ## Project Status
 Our project is mostly completed, but the prediction of model is not accurate. Further improvement is welcomed!
