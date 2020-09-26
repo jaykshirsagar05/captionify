@@ -7,6 +7,8 @@ Uploading an image, and our application will generate a description for this ima
 
 
 ## Visuals
+Below is the demo output of our model
+
 ![alt_text](https://github.com/jaykshirsagar05/captionify/blob/master/caption1.png)
 
 ## Installation
