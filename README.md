@@ -42,8 +42,9 @@ Anyone is welcomed to contribute to this project.
 
 ![Qiaochu Xiong](https://github.com/6390wer)
 ### Acknowledgements:
-Brownlee, J. (2019, June 27). How to Develop a Deep Learning Photo Caption Generator from Scratch. Retrieved September 26, 2020, from https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/
-Davidefiocco. (n.d.). Davidefiocco/streamlit-fastapi-model-serving. Retrieved September 26, 2020, from https://github.com/davidefiocco/streamlit-fastapi-model-serving
+* Brownlee, J. (2019, June 27). How to Develop a Deep Learning Photo Caption Generator from Scratch. Retrieved September 26, 2020, from https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/
+
+* Davidefiocco. (n.d.). Davidefiocco/streamlit-fastapi-model-serving. Retrieved September 26, 2020, from https://github.com/davidefiocco/streamlit-fastapi-model-serving
 
 
 ## Project Status
