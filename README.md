@@ -1,5 +1,4 @@
 # Captionify
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iqwn5OKrrBD1vxx7EoGJRvEquBfxwQpX?usp=sharing]
 
 ## Description
 A webapp which can generate brief captions from images.
