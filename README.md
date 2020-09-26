@@ -6,6 +6,8 @@ A webapp which can generate brief captions from images.
 We have used a merge model similar to "Show and tell architecture" to generate brief captions.
 We trained model on flickr8k dataset with the help of google colab.
 
+We have used a python based API framework named FastAPI and for frontend we used Streamlit framework.
+
 ## Visuals
 Below is the demo output of our model
 
