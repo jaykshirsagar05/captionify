@@ -1,5 +1,4 @@
-## Name
-Captionify
+# Captionify
 
 ## Description
 Uploading an image, and our application will generate a description for this image. The 
@@ -35,5 +34,11 @@ NOTE: You need to change the path of pre-trained model in ![caption.py](https://
 ## Contributing
 
 ## Authors and acknowledgement
+![Jay Kshirsagar](https://github.com/jaykshirsagar05)
+
+![Qiaochu Xiong](https://github.com/6390wer)
+
+### References
+
 
 ## Project Status
