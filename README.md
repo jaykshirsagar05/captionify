@@ -28,18 +28,13 @@ visit to for http://127.0.0.1:8000/docs server side(fastapi)
 
 NOTE: You need to change the path of pre-trained model in ![caption.py](https://github.com/jaykshirsagar05/captionify/blob/master/fastapi/caption.py) file.
 
-## Support
-
 ## Roadmap
+This project is open sourced.
 
 ## Contributing
+Anyone is welcomed to contribute to this project. 
 
 ## Authors and acknowledgement
-![Jay Kshirsagar](https://github.com/jaykshirsagar05)
-
-![Qiaochu Xiong](https://github.com/6390wer)
-
-### References
-
 
 ## Project Status
+Our project is mostly completed, but the prediction of model is not accurate. Further improvement is welcomed!
