@@ -12,6 +12,7 @@ Below is the demo output of our model
 ![alt_text](https://github.com/jaykshirsagar05/captionify/blob/master/caption1.png)
 
 ## Installation
+This project works for python.
 
 ## Usage
 
