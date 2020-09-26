@@ -24,6 +24,8 @@ Docker-compose up
 ```
 visit to http://172.19.0.3:8501/ for streamlit app.
 
+visit to for http://127.0.0.1:8000/docs server side(fastapi)
+
 NOTE: You need to change the path of pre-trained model in ![caption.py](https://github.com/jaykshirsagar05/captionify/blob/master/fastapi/caption.py) file.
 
 ## Support
