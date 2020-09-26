@@ -1,7 +1,7 @@
 from pickle import load
 from numpy import argmax
 from keras.preprocessing.sequence import pad_sequences
-from keras.applications.vgg16 import VGG16
+from keras.applications import vgg16
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from keras.applications.vgg16 import preprocess_input
@@ -13,7 +13,7 @@ from keras.models import load_model
 
 def extract_features(filename):
     # load the model
-    model = VGG16()
+    model = vgg16.VGG16(weights='vgg16_weights_tf_dim_ordering_tf_kernels.h5')
     # re-structure the model
     model.layers.pop()
     model = Model(inputs=model.inputs, outputs=model.layers[-2].output)
@@ -38,37 +38,6 @@ def word_for_id(integer, tokenizer):
         if index == integer:
             return word
     return None
-
-# generate a description for an image
-
-
-# def generate_desc(model, tokenizer, file, max_length):
-#     image = Image.open(io.BytesIO(binary_image)).convert("RGB")
-#     photo = extract_features(image)
-#     # seed the generation process
-#     in_text = 'startseq'
-#     # iterate over the whole length of the sequence
-#     for i in range(max_length):
-#         # integer encode input sequence
-#         sequence = tokenizer.texts_to_sequences([in_text])[0]
-#         # pad input
-#         sequence = pad_sequences([sequence], maxlen=max_length)
-#         # predict next word
-#         yhat = model.predict([photo, sequence], verbose=0)
-#         # convert probability to integer
-#         yhat = argmax(yhat)
-#         # map integer to word
-#         word = word_for_id(yhat, tokenizer)
-#            # stop if we cannot map the word
-#         if word is None:
-#             break
-#             # append as input for generating the next word
-#             in_text += ' ' + word
-#             # stop if we predict the end of the sequence
-#             if word == 'endseq':
-#                 break
-#         return in_text
-
 
 def get_tokenizer():
     # load the tokenizer
@@ -104,7 +73,7 @@ def generate_desc(model, tokenizer, photo, max_length):
 
 def get_model():
     # load the model
-    model = load_model('model_18.h5')
+    model = load_model('model_5.h5')
     return model
 # # load and prepare the photograph
 # photo = extract_features('/content/drive/My Drive/Mwml/c2.jpg')
